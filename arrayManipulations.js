@@ -29,3 +29,7 @@ const name = ['Enoch', 'Emmanuel', 'Bernard', 'Frank', 'Albert'];
 const formattedNames = formatArrayStrings(name, newArray);
 console.log(formattedNames);
     
+module.exports = {
+  formattedNames,
+  name
+};
